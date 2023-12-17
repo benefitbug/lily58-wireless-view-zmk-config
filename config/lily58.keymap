@@ -24,8 +24,8 @@
             bindings = <
 &kp ESC           &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                         &kp N6         &kp N7      &kp N8     &kp N9   &kp N0    &kp MINUS
 &kp TAB           &kp Q   &kp W   &kp E         &kp R         &kp T                                          &kp Y          &kp U       &kp I      &kp O    &kp P     &kp SQT
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F         &kp G                                          &kp H          &kp J       &kp K      &kp L    &kp SEMI  &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B      &kp ENTER     &kp B                 &kp N          &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
+&kp LEFT_BRACKET  &kp A   &kp S   &kp D         &kp F         &kp G                                          &kp H          &kp J       &kp K      &kp L    &kp SEMI  &kp RIGHT_BRACKET
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B      &kp ENTER     &kp B                 &kp N          &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
                                   &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &lt 1 RALT    &mt LEFT_SHIFT ENTER  &kp BACKSPACE  &kp DELETE  &to 1
             >;
         };
@@ -63,7 +63,17 @@
 &trans      &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &to 0
+                                        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &to 4
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&kp ESC           &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                              &kp N6    &kp N7          &kp N8        &kp N9           &kp N0    &kp MINUS
+&kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                                               &kp Y     &kp U           &kp UP_ARROW  &kp O            &kp P     &kp APOS
+&kp LEFT_BRACKET  &kp A   &kp S   &kp D     &kp F     &kp G                                               &kp H     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp SEMI  &kp RIGHT_BRACKET
+&kp LCTRL         &kp Z   &kp X   &kp C     &kp V     &kp B      &kp ENTER          &kp B                 &kp N     &kp M           &kp COMMA     &kp DOT          &kp FSLH  &kp EQUAL
+                                  &kp LGUI  &kp LALT  &kp SPACE  &lt 1 RIGHT_ALT    &mt LEFT_SHIFT ENTER  &kp BSPC  &kp DEL         &to 0
             >;
         };
     };
