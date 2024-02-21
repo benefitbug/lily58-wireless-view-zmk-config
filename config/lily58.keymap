@@ -51,7 +51,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE  &kp F1   &kp F2           &kp F3     &kp F4     &kp F5                                 &kp F6  &kp F7       &kp F8    &kp F9         &kp F10  &trans
+&kp GRAVE  &kp F1   &kp F2           &kp F3     &kp F4     &kp F5                                 &kp F6  &kp F7       &kp F8    &kp F9         &kp F10  &kp PRINTSCREEN
 &kp F11    &kp F12  &kp LC(LS(TAB))  &kp LC(C)  &kp LC(V)  &kp LC(TAB)                            &trans  &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &trans   &trans
 &kp F13    &kp F14  &kp F15          &kp F16    &kp F17    &kp F18                                &trans  &kp LEFT     &kp DOWN  &kp RIGHT      &trans   &trans
 &kp F19    &kp F20  &kp F21          &kp F22    &kp F23    &kp F24      &bt BT_NXT    &bt BT_CLR  &trans  &trans       &trans    &trans         &trans   &trans
